@@ -1,8 +1,14 @@
 @font-face {
-    font-family: "20 Kopeek Book";
+    font-family: '20 Kopeek';
+    src: url('../fonts/20Kopeek-Book.eot');
+    src: url('../fonts/20Kopeek-Book.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/20Kopeek-Book.woff2') format('woff2'),
+    url('../fonts/20Kopeek-Book.woff') format('woff'),
+    url('../fonts/20Kopeek-Book.ttf') format('truetype'),
+    url('../fonts/20Kopeek-Book.svg#20Kopeek-Book') format('svg');
+    font-weight: normal;
     font-style: normal;
-    font-weight: 400;
-    src: local("20 Kopeek Book");
+    font-display: swap;
 }
 
 .container {
@@ -40,7 +46,7 @@ header {
 }
 
 .header-text {
-    font-family: "20 Kopeek Book", sans-serif;
+    font-family: '20 Kopeek';
     font-weight: 400;
     font-size: 15px;
     color: #FFFFFF;
@@ -87,14 +93,14 @@ header {
 }
 
 .order_head {
-    font-family: "20 Kopeek Book", sans-serif;
+    font-family: '20 Kopeek';
     font-weight: 400;
     font-size: 50px;
     color: #181818;
 }
 
 .dev {
-    font-family: "20 Kopeek Book", sans-serif;
+    font-family: '20 Kopeek';
     font-size: 30px;
     font-weight: 400;
     margin-bottom: 65px;
@@ -133,7 +139,7 @@ header {
 
 .container2-title {
     margin-bottom: 15px;
-    font-family: "20 Kopeek Book", sans-serif;
+    font-family: '20 Kopeek';
     font-size: 38px;
     font-weight: 400;
     line-height: 110%;
@@ -151,7 +157,7 @@ header {
 }
 
 .con2-body-txt {
-    font-family: "20 Kopeek Book", sans-serif;
+    font-family: '20 Kopeek';
     font-weight: 400;
     font-size: 18px;
     max-width: 445px;
@@ -164,7 +170,7 @@ header {
 }
 
 .container2-title2-h2 {
-    font-family: "20 Kopeek Book", sans-serif;
+    font-family: '20 Kopeek';
     font-weight: 400;
     font-size: 50px;
 }
@@ -176,7 +182,7 @@ header {
 
 .item-12345 {
 
-    font-family: "20 Kopeek Book", sans-serif;
+    font-family: '20 Kopeek';
     font-weight: 400;
     font-size: 15px;
     line-height: 19px;
@@ -218,11 +224,12 @@ header {
     margin-bottom: 120px;
 }
 
-.price{
+.price {
     margin-bottom: 15px;
 }
-.price-h2{
-    font-family: "20 Kopeek Book", sans-serif;
+
+.price-h2 {
+    font-family: '20 Kopeek';
     text-align: right;
     font-weight: 400;
     font-size: 38px;
