@@ -11,30 +11,25 @@
     font-display: swap;
 }
 
-.container {
-    background-image: url("../images/bg-img.png");
-    background-size: cover;
-    height: 100vh;
-    padding-top: 32px;
-
-}
-
 header {
-    margin-bottom: 269px;
+    position: absolute;
+    width: 100%;
 }
 
-.main_content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1440px;
+.container {
     margin: auto;
+    max-width: 1110px;
+}
 
+.container.d-flex {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
 }
 
 .logo {
     display: flex;
-    margin: auto;
+
 }
 
 .link {
@@ -80,23 +75,26 @@ header {
     margin-right: 22px;
 }
 
-.order {
-    display: flex;
-    margin: auto;
-    max-width: 1440px;
+.section {
+    background-image: url("../images/bg-img.png");
+    background-size: cover;
+    height: 100vh;
 }
 
-.order-container {
-    margin-left: 185px;
-
-    max-width: 650px;
+.order {
+    margin: auto;
+    max-width: 1110px;
+    padding-top: 269px;
 }
 
 .order_head {
-    font-family: '20 Kopeek';
+    font-family: "20 Kopeek Book", sans-serif;
+    font-size: 45px;
     font-weight: 400;
-    font-size: 50px;
     color: #181818;
+    line-height: 45px;
+    max-width: 581px;
+    margin-bottom: 30px;
 }
 
 .dev {
@@ -222,16 +220,19 @@ header {
 
 .item-5-5-p {
     margin-bottom: 120px;
+    font-size: 15px;
 }
-.price{
+
+.price {
     margin-bottom: 15px;
 }
+
 .price-h2 {
     font-family: '20 Kopeek Book';
     text-align: right;
     font-weight: 400;
     font-size: 38px;
-    margin:0;
+    margin: 0;
 }
 
 .price-container {
@@ -249,17 +250,56 @@ header {
 .price-item2 {
     max-width: 634px;
 }
-.price-p{
+
+.price-p {
     padding: 0 10px;
     font-family: "20 Kopeek";
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
 }
-.price-p:last-child{
+
+.price-p:last-child {
     background-color: #2B59C3;
     border-radius: 5px;
     color: #FFFFFF;
     padding: 5px 10px;
 
+}
+
+.project-list {
+    max-width: 1110px;
+    margin: auto;
+    font-family: "20 Kopeek";
+}
+
+.project-1-item {
+    display: flex;
+    align-items: center;
+
+}
+
+.amperia {
+    font-weight: 400;
+    font-size: 55px;
+    margin-right: 136px;
+}
+
+.amperia_project {
+    font-weight: 400;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 23px 47px;
+    text-decoration: none;
+    color: #181818;
+}
+
+.amperia_brand {
+    position: relative;
+    bottom: 70px;
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 233px;
+    margin-bottom: 100px;
 }
