@@ -305,14 +305,17 @@ header {
     margin-bottom: 100px;
     color: #181818;
 }
-.amperia_brand:last-of-type{
+
+.amperia_brand:last-of-type {
     margin-bottom: 0;
 }
-.more{
+
+.more {
     display: flex;
     justify-content: center;
 }
-.moretxt{
+
+.moretxt {
     font-weight: 400;
     font-size: 26px;
     border: 1px solid black;
@@ -323,14 +326,52 @@ header {
     margin-right: 65px;
     text-decoration: none;
 }
-.guideline{
+
+.guideline {
     max-width: 1110px;
     margin: auto;
     font-family: "20 Kopeek";
 }
-.guideline-h{
+
+.guideline-h {
     font-weight: 400;
     font-size: 38px;
     color: #181818;
-    margin-bottom:15px;
+    margin-bottom: 15px;
+}
+
+.guideline-content {
+    display: flex;
+    max-width: 1110px;
+}
+
+.content-item-1 {
+    max-width: 635px;
+    margin-right: 30px;
+}
+
+
+.content-item-2 {
+    max-width: 406px;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    line-height: 140%;
+}
+.ci-2-txt-1{
+    background-color: #2B59C3;
+    padding: 11px 39px 18px 14px;
+    color:#FFFFFF;
+    position: relative;
+    right:14px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.ci-2-h{
+    margin-top: 0;
+    font-size: 26px;
+    font-weight: 400;
+}
+.ci-2-txt-2{
+
 }
