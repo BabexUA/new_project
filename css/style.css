@@ -323,3 +323,14 @@ header {
     margin-right: 65px;
     text-decoration: none;
 }
+.guideline{
+    max-width: 1110px;
+    margin: auto;
+    font-family: "20 Kopeek";
+}
+.guideline-h{
+    font-weight: 400;
+    font-size: 38px;
+    color: #181818;
+    margin-bottom:15px;
+}
