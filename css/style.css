@@ -358,20 +358,56 @@ header {
     background-color: #FFFFFF;
     line-height: 140%;
 }
-.ci-2-txt-1{
+
+.ci-2-txt-1 {
     background-color: #2B59C3;
     padding: 11px 39px 18px 14px;
-    color:#FFFFFF;
+    color: #FFFFFF;
     position: relative;
-    right:14px;
+    right: 14px;
     border-radius: 5px;
     margin-bottom: 15px;
 }
-.ci-2-h{
+
+.ci-2-h {
     margin-top: 0;
     font-size: 26px;
     font-weight: 400;
 }
-.ci-2-txt-2{
 
+.ci-2-txt-2 {
+    margin-bottom: 77px;
+
+}
+
+guideline-h.mb {
+    margin-bottom: 11px;
+}
+
+.guideline-h.fs {
+    font-size: 26px;
+    margin-bottom: 27px;
+}
+
+.form {
+    margin-bottom: 44px;
+}
+
+.form-input {
+    padding: 23px 149px 23px 29px;
+    border: 1px solid #181818;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.button {
+    padding: 23px 47px;
+    background-color: #2B59C3;
+    color: #FFFFFF;
+    border-radius: 40px;
+    border: none;
+}
+
+.terms {
+    color: #2B59C3;
 }
