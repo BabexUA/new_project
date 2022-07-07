@@ -271,6 +271,7 @@ header {
     max-width: 1110px;
     margin: auto;
     font-family: "20 Kopeek";
+    padding-bottom: 123px;
 }
 
 .project-1-item {
@@ -303,5 +304,22 @@ header {
     max-width: 233px;
     margin-bottom: 100px;
     color: #181818;
-
+}
+.amperia_brand:last-of-type{
+    margin-bottom: 0;
+}
+.more{
+    display: flex;
+    justify-content: center;
+}
+.moretxt{
+    font-weight: 400;
+    font-size: 26px;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 23px 47px;
+    background-color: #2B59C3;
+    color: #FFFFFF;
+    margin-right: 65px;
+    text-decoration: none;
 }
