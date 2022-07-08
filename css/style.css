@@ -489,16 +489,42 @@ guideline-h.mb {
     margin: auto;
     font-family: "20 Kopeek";
     padding-top: 282px;
+    padding-bottom: 80px;
 
 }
-.bg{
+
+.bg {
     background: url("../images/bagpack.png") no-repeat;
     background-size: cover;
 
 }
-.qh{
-    margin: auto;
+
+.qh {
     font-weight: 400;
     font-size: 55px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.advatage {
+    display: flex;
+}
+
+.figure {
+    font-weight: 400;
+    font-size: 55px;
+    color: #FFFFFF;
+}
+
+.goal {
+    display: flex;
+    align-items: baseline;
+    margin-right: 28px;
+}
+
+.goal-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
     color: #FFFFFF;
 }
