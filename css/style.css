@@ -461,7 +461,7 @@ guideline-h.mb {
 }
 
 .w-20 {
-    width: 20%;
+    width: 18%;
 }
 
 .mb-15 {
@@ -490,7 +490,6 @@ guideline-h.mb {
     font-family: "20 Kopeek";
     padding-top: 282px;
     padding-bottom: 80px;
-
 }
 
 .bg {
@@ -519,7 +518,7 @@ guideline-h.mb {
 .goal {
     display: flex;
     align-items: baseline;
-    margin-right: 28px;
+    width: 20%;
 }
 
 .goal-text {
